@@ -29,13 +29,14 @@
 	}
 }
 
-.selected {
-	color: lightgray;
+.options--categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.options--freetext,
-.options--categories {
-	/* font-size: 1rem; */
+.selected {
+	color: lightgray;
 }
 
 .options--freetext input {

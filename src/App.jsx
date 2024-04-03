@@ -31,7 +31,7 @@ function App() {
 				{isDataLoading ? (
 					<Loader />
 				) : (
-					<>
+					<div className="categories">
 						<label>
 							Category:
 							<select
@@ -43,7 +43,7 @@ function App() {
 								))}
 							</select>
 						</label>
-					</>
+					</div>
 				)}
 				<button type="button" onClick={handleSelection}>
 					Search
