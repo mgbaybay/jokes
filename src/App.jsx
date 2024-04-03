@@ -119,7 +119,7 @@ function App() {
 				</span>
 			</div>
 			{selected === "categories" ? <Categories /> : <FreeText />}
-			{jokes ? (
+			{jokes.length ? (
 				<Jokes data={jokes} />
 			) : (
 				<div className="joke">
