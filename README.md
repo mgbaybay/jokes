@@ -10,4 +10,12 @@ Time spent: 3 hrs
 TODO:
 - Add pagination
 - Add lazy loading
-  
+
+### App Screenshots
+![Mobile Home](https://github.com/mgbaybay/jokes/blob/main/mobile-home.png)
+
+![Mobile Jokes](https://github.com/mgbaybay/jokes/blob/main/mobile-jokes.png)
+
+![Tablet Home](https://github.com/mgbaybay/jokes/blob/main/tablet-home.png)
+
+![Tablet Jokes](https://github.com/mgbaybay/jokes/blob/main/tablet-jokes.png)
