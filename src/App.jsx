@@ -119,7 +119,13 @@ function App() {
 				</span>
 			</div>
 			{selected === "categories" ? <Categories /> : <FreeText />}
-			<Jokes data={jokes} />
+			{jokes ? (
+				<Jokes data={jokes} />
+			) : (
+				<div className="joke">
+					<span>No joke found.</span>
+				</div>
+			)}
 		</>
 	);
 }

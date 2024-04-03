@@ -88,3 +88,8 @@
 	color: rgba(255, 255, 255, 0.87);
 	font-weight: normal;
 }
+
+.pagination > button {
+    margin: 0.25em;
+    padding: 0.5em 1em;
+}

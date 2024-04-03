@@ -85,6 +85,19 @@ button:focus-visible {
 		width: 100vw;
 		padding: 2em 0.5em;
 	}
+
+    .pagination {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pagination > button {
+        margin: 0.25em;
+        padding: 0.5em 1em;
+    }
 }
 
 @media screen and (max-width: 1280px) {
